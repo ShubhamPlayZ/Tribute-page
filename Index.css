@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #bdc3c7;
+    width: 100%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: #000 solid 2px;
+}
+
+#title {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#image{
+    background-image: url('./download.jpg');
+    background-size: cover;
+    width: 25%;
+    height:250px;
+    float: right;
+    bottom: 1px;
+}
+
+h3 {
+    text-align: center;
+    margin: 2%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+#about-him{
+    padding: auto;
+    width: 100%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    width: 95%;
+}
+
+#about-him-div{
+    width: 60%;
+    margin-left: 2%;
+}
+
+#about-him-heading{
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#about-him-text{
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#timeline-section{
+    width: 100%;
+    background-color: #2c3e50;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#timeline{
+    background-color: #7f8c8d;
+    padding: 2% 0%;
+}
+
+#timeline_text{
+    text-align: center;
+    margin: 2%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+}
+
+#list{
+    background-color: #c2c7cf;
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+}
+
+li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+hr {
+    border: 2px solid #95a5a6;
+    margin-right: 5%;
+    width: 98%;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #bdc3c7;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+#footer_text{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+a{
+    color: #3498db;
+}
+
+@media only screen and (max-width: 1200px){
+    #image{
+        width: 40%;
+        float:none;
+        margin: auto;
+    }
+    #about-him-div{
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #image{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    #image{
+        width: 80%;
+    }
+}
